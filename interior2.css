@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-left:10px;
+    
+}
+body {
+    width : 93vw;
+    overflow-x : hidden;
+}
+.container{
+    width:auto;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding-top : 10px;
+    
+    
+}
+.logo{
+    margin:0;
+}
+.logo img{
+    height:100px;
+    width:100px;
+}
+/* .menu{
+    height:50px;
+} */
+
+.menu ul{
+    display:flex;
+    background:hotpink;
+    justify-content:flex-end;
+    align-items:center;
+    padding:10px;
+    
+
+}
+.fa{
+    color:red;
+    display:none;
+}
+.menu ul li{
+    font-size:larger;
+    list-style:none;
+    
+}
+.menu ul a{
+    text-decoration:none;
+    padding:20px;
+    color:black;
+    margin:20px 10px;
+    transition:0.4s ease-in-out;
+    
+    
+}
+.menu ul li a:hover{
+    color:white;
+}
+
+.about_us .a{
+   
+    text-align:center;
+    font-size:80px;
+    width: 100%;
+    color:black;
+    
+}
+.head .b{
+    font-size:40px;
+    font-weight:300px;
+    position:relative;
+    top:-60px;
+    text-align:center;
+}
+.head .p{
+    font-size:25px;
+    position:relative;
+    top:-50px;
+
+}
+.head .u{
+    font-size:40px;
+    
+}
+.head .g{
+    font-size:22px;
+    padding:20px;
+    
+}
+.login{
+    margin-top:20px;
+    width:400px;
+    height:300px;
+    padding:10px;
+    background:rgba(188, 168, 168, 0.909);
+    border-radius:10px;
+    margin : auto;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+    
+
+
+}
+.video{
+    margin-top:20px;
+    width:450px;
+    height:auto;
+    padding:10px;
+    background:rgb(244, 217, 240);
+    border-radius:10px;
+    margin : auto;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+}
+.login h2{
+    
+    padding:10px;
+    top:-60px;
+    color:green;
+}
+.login .login1{
+    font-size:15px;
+    width:300px;
+    height:35px;
+    padding:7px;
+    border-radius:1px;
+    background:rgb(230, 227, 227);
+    
+ 
+}
+.login1:hover{
+    box-shadow:0 0 20px 0px rgb(151, 211, 151);
+    
+}
+.pass{
+    font-size:15px;
+    width:300px;
+    height:35px;
+    /* padding:7px; */
+    margin-top:15px;
+    border-radius:1px;
+    background:rgb(230, 227, 227);
+
+
+}
+.pass:hover{
+    box-shadow:0 0 20px 0px rgb(151, 211, 151);
+    
+}
+.forget{
+    font-size:15px;
+    color:white;
+
+    transition:0.4s;
+}
+.forget:hover{
+    color:rgb(53, 53, 207);
+}
+
+.btn{
+    padding:10px;
+    border-radius:10px;
+    width:200px;
+    height:40px;
+    margin-top:20px;
+  
+    transition:0.4s;
+    background:rgb(105, 184, 215);
+    color:white;
+
+}
+.btn:hover{
+    background-color:green;
+
+}
+h2{
+    font-size:20px;
+    /* padding:30px; */
+}
+/* START */
+.about_us{
+    width : 99vw;
+    height : 80vh;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+    background-image: url(abac.jpg);
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position: center;
+}
+.head {
+    width : 80%;
+    height : auto;
+    margin : auto;
+    text-align : center;
+    margin-top : 100px;
+
+}
+.video {
+    width : auto;
+    height : auto;
+    background-color: transparent;
+}
+input {
+    padding : 10px!important;
+    margin : 4px!important;
+}
+h1 {
+    margin-bottom : 10px;
+    margin-top : 10px;
+}
+/*---footer---*/
+
+.footer{
+    width:100%;
+    padding:20px;
+    text-align:center;
+}
+.footer h4{
+    font-size:30px;
+    margin-bottom:25px;
+    top:10px;
+    position:relative;
+
+    
+}
+.footer p{
+    position:relative;
+    top:10px;
+    font-size:20px;
+    padding:20px;
+}
+.icons{
+    font-size:30px;
+    position:relative;
+    margin-left:590px;
+    
+}
+.icons a{
+    color:black;
+    
+    
+}
+
+.icons p{
+    padding:10px;
+    font-size:20px;
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    p{
+      font-size : 15px!important;
+    }
+    h1{
+      font-size : 25px!important;
+    }
+    .login{
+      margin-top  : 30px!important ;
+      margin-bottom  : 30px!important ;
+    }
+    }
+  

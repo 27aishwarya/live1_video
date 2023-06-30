@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:auto;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.75)50%),url(black.jpg);
+    background-position: center;
+    background-size:cover;
+    
+}
+.navbar{
+    margin:auto;
+    width:90%;
+    height:105vh;
+
+}
+.icon{
+    width:200px;
+    float:left;
+}
+.logo{
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+    color:gold;
+    float:left;
+    
+}    
+.menu{
+    width:500px;
+    float:left;
+    
+}
+.menu ul {
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.menu ul li{
+    margin-left:40px;
+    margin-top:90px;
+    font-size:medium;
+
+}
+.menu ul li a{
+    text-decoration:none;
+    color:beige;
+    font-weight:bold;
+    transition: 0.4s ease-out;
+}   
+.menu ul li a:hover{
+    color:coral;
+
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.content{
+    padding-top: 200px;
+    width:40%;
+    color: rgb(216, 90, 12);
+    position:relative;
+}
+.content .par{
+    font-family:Arial;
+    font-size:large;
+    letter-spacing: 1.2px;
+    color:chocolate;
+}
+.content h1{
+    letter-spacing:3px;
+    color:azure;
+}
+.bt{
+    background:gold;
+    border-radius:20px;
+    width:100px;
+    height:50px;
+}
+.bt a{
+    text-decoration: none;
+    color:black;
+    transition: 0.2s ease-in;
+    
+
+}
+.bt:hover{
+    background-color: white;
+}
+
+.content span{
+    color:aqua;
+}
+
+.form{
+    width:250px;
+    height:350px;
+    background:rgba(169, 199, 228, 0.197);
+    position:relative;
+    top: -290px;
+    left:900px;
+    padding:10px;
+    border-radius:20px;
+}
+
+.form h2{
+    font-family:Arial;
+    font-size: x large;
+    text-align:center;
+    background-color:white;
+    border-radius:5px;
+    padding:5px;
+}
+
+.form input{
+    width:250px;
+    height:20px;
+    background:transparent;
+    padding:20px;
+    border-bottom: 30px;
+    border-top:none;
+    font-size:20px;
+    margin-top:20px;
+
+}
+
+::placeholder{
+    font-family:Arial;
+    color:white;
+}
+
+.btns{
+    width:200px;
+    height:40px;
+    background:rgb(228, 68, 10);
+    margin-top:30px;
+
+}
+.btns:hover{
+    background:white;
+    
+}
+.btns a{
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+}

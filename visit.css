@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    
+
+}
+.container{
+    margin:0;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding-top : 20px;
+    
+    
+}
+.logo{
+    margin:0;
+    padding:10px;
+    
+}
+.logo img{
+    height:100px;
+    width:100px;
+}
+/* .menu{
+    height:50px;
+} */
+
+.menu ul{
+    display:flex;
+    background:hotpink;
+    justify-content:flex-end;
+    align-items:center;
+    padding:10px;
+    
+
+}
+.fa{
+    color:red;
+    display:none;
+}
+.menu ul li{
+    font-size:larger;
+    list-style:none;
+    
+}
+.menu ul a{
+    text-decoration:none;
+    padding:20px;
+    color:black;
+    margin:20px 10px;
+    transition:0.4s ease-in-out;
+    
+    
+}
+.menu ul li a:hover{
+    color:aqua;
+}
+
+.heading img{
+    width:1534px;
+    height:400px;
+    filter:brightness(70%);
+
+}
+.heading h1{
+    text-align:center;
+    background:linear-gradient(to right ,rgb(136, 154, 154),rgb(198, 102, 7),rgb(10, 222, 204));
+    -webkit-background-clip:text;
+    color:transparent;
+    position:relative;
+    top:-250px;
+    font-size:80px;
+}
+.scroll-container {
+    width: 480px; /* Set the desired width */
+    height: 590px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: darkgray lightgray; /* Set the color of the scrollbar thumb and track */
+   
+    
+  }
+
+  .container{
+   margin:auto;
+  }
+  
+  .content p{
+      font-size:25px;
+      padding:20px;
+      color:rgb(100, 98, 98);
+
+  }
+  .content h3{
+    text-align:center;
+    font-size:30px;
+    background:linear-gradient(to right,rgb(225, 15, 225),rgb(227, 158, 10),white);
+    -webkit-background-clip:text;
+    color:transparent;
+  }
+  .image{
+    position:relative;
+    top:-650px;
+    left:700px;
+  }
+  .image img{
+    width:800px;
+    height:700px;
+    transition:0.4s;
+    border-radius:20px;
+   
+  }
+  .image img:hover{
+    box-shadow:0 0 20px 0px;
+  }
+
+
+  
+  
+  
+  /* Customize the appearance of the scrollbar thumb */
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+  }
+  
+  /* Customize the appearance of the scrollbar track */
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: lightgray;
+  }
+
+.row{
+
+    justify-content:space-between;
+    padding:20px;
+    width:40%;
+}
+.col{
+    flex-basis:30%;
+    border-radius:5px;
+    background:#f8eeee;
+    padding:20px;
+    margin-bottom:5%;
+    box-sizing:border-box;
+    transition:0.2s;
+    cursor:pointer;
+    position:relative;
+    top:-1150px;
+    left:850px;
+}
+.col h2{
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+    color:green;
+}
+.col p{
+    text-align:center;
+    font-size:20px;
+    padding:20px;
+
+}
+.image1{
+    position:relative;
+    top:-600px;
+    
+    
+}
+ 
+.image1 img{
+    width:800px;
+    height:600px;
+    border-radius:20px;
+    transition:0.4s;
+    
+    
+}
+.image1 img:hover{
+    background-color:rgb(249, 152, 6);
+    box-shadow:0 0 20px 0px;
+}
+/*---footer---*/
+.footer{
+    width:100%;
+    padding:20px;
+    text-align:center;
+}
+.footer h4{
+    font-size:30px;
+    margin-bottom:25px;
+    top:-1000px;
+    position:relative;
+
+    
+}
+.footer p{
+    position:relative;
+    top:-1000px;
+}
+.icons{
+    padding:10px;
+    font-size:40px;
+    position:relative;
+    top:-1000px;
+    left:670px;
+    
+
+}
+.icons a{
+    color:black;
+    
+}
+
+.icons p{
+    padding:10px;
+    font-size:20px;
+    position:relative;
+    top:-5px;
+    
+    
+    
+}

@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+    align-items: center;
+    width:90%;
+    margin:auto;
+    padding-top : 10px;
+    
+    
+}
+.logo{
+    margin:0;
+}
+.logo img{
+    height:100px;
+    width:100px;
+}
+/* .menu{
+    height:50px;
+} */
+
+.menu ul{
+    display:flex;
+    background:hotpink;
+    justify-content:flex-end;
+    align-items:center;
+    padding:10px;
+    
+
+}
+.fa{
+    color:red;
+    display:none;
+}
+.menu ul li{
+    font-size:larger;
+    list-style:none;
+    
+}
+.menu ul a{
+    text-decoration:none;
+    padding:20px;
+    color:black;
+    margin:20px 10px;
+    transition:0.4s ease-in-out;
+    
+    
+}
+.menu ul li a:hover{
+    color:white;
+}
+
+/*-----Facilities-----*/
+
+.facilities{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    
+}
+.facilities .row1{
+    display:flex;
+    padding:20px;
+    justify-content:space-between;
+}
+.facilities .row2{
+    display:flex;
+}
+
+.hd{
+    font-size:60px;  
+}
+.pg{
+    font-size:25px;
+}
+.col2{
+    padding:20px;
+    flex-basis:31%;
+    padding:20px;
+    border-radius:10px;
+
+}
+.col2 img{
+    width:100%;
+    border-radius:10px;
+    transition:0.5s;
+}
+.col2:hover{
+    background-color:rgb(20, 155, 213);
+    box-shadow:0 0 20px 0px;
+}
